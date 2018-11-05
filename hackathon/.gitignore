@@ -1,0 +1,6 @@
+crawler/__pycache__
+crawler_checkpoint.ipynb
+data/html_jsons/**/*.json
+.ipynb_checkpoints
+/*.ipynb
+.idea/
