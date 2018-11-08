@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  <ion-select (click) =  getData() placeholder=" select routes">
+    <ion-option *ngFor="let res of results"value="{{res.id}}"> {{res.title}} </ion-option>
+  </ion-select>
+</ion-content>
+
